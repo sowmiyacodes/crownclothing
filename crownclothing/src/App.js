@@ -4,9 +4,12 @@ import Home from "./routes/home/home.component.jsx";
 import Navigation from './routes/navigation/navigation.component.jsx';
 const Shop = ()=>
 {
-  <div>
+  return(
+    <div>
     <h1>This is the shop page</h1>
   </div>
+  )
+  
 }
 
 function App() {
